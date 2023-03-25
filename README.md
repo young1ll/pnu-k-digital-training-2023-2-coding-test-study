@@ -72,8 +72,14 @@
 > commit 방법 (pull 먼저 해야 합니다.)
 ```
 git pull origin main
+```
+```
 git add .
+```
+```
 git commit -m "commit message"
+```
+```
 git push origin main
 ```
 <br />
