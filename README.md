@@ -8,6 +8,7 @@
 - repository fork
 - branch
 - 각자 패키지 폴더 생성
+- 유튜브 채널
 - README.MD 작성
 - 스터디 방식 논의
 - ctrl + alt + l
