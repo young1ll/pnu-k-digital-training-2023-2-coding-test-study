@@ -1,8 +1,8 @@
-# pnu-k-digital-2023-2-coding-test-study
-부산대학교 K-Digital Training 2023-2 Coding Test Study
+# 부산대학교 K-Digital Training 2023-2 Coding Test Study
 <br/>
+
 ## README 테스트 중
-## 첫 시간 해야할 일 
+## OT
 - 인텔리제이 설치
 - D2Coding font
 - repository fork
@@ -11,7 +11,7 @@
 - 유튜브 채널
 - README.MD 작성
 - 스터디 방식 논의
-- ctrl + alt + l
+- ctrl + alt + l - 
 - 백준 환경 세팅 - solved.ac 
 - 백준 문제 제출 시 format
 
@@ -30,23 +30,26 @@
 <br />
 
 ### 4월의 목표
-- 교재 -  PART 02 
-- 백준 - 교재 파트 따라서 연습
-- 프로그래머스 - Lv.1 완료
+- 교재 -  PART 02 한 chapter씩 
+- 백준 - 교재 파트 따라서 단계별로 풀어보기 진행
+- 프로그래머스 - Lv.1 하루 2문제
 
 > 교재 
 - 이것이 취업을 위한 코딩 테스트다 with 파이썬(한빛미디어 나동빈 지음)
+- [유튜브 채널 동빈나](https://www.youtube.com/@dongbinna)
+- [교재 Java 소스코드(nbd796/python-for-coding-test)](https://github.com/ndb796/python-for-coding-test)
 <br />
 
 > 플랫폼
-- 백준(https://www.acmicpc.net/)
-- 프로그래머스(https://programmers.co.kr/)
+- [백준](https://www.acmicpc.net/)
+- [프로그래머스](https://programmers.co.kr/)
 <br />
 
+> 진행 상황
 <table>
  <tr>
     <td>진행 기간</td>
-    <td>2023.04.03 ~</td>
+    <td>2023.03.31 ~</td>
   </tr>
   <tr>
     <td>정기 스터디 시간</td>
@@ -55,11 +58,12 @@
 </table>
 <br />
 
-> 진행 상황
 
-|주차|날짜|Chapter|
-|---|---|---|
-|Week01|2023.04.03 ~ 2023.04.09|03 그리디|
+
+|주차|날짜|Chapter|Baekjoon 단계별로 풀어보기|
+|---|---|---|---|
+|Week00|2023.03.31|OT| |
+|Week01|2023.04.03 ~ 2023.04.09|03 그리디|그리디 알고리즘|
 <br/>
 
 > 진행 방식
