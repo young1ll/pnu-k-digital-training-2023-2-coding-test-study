@@ -73,10 +73,8 @@
 - 교재 내용 순서대로 진행, 한 주에 두 챕터 진행 
 <br />
 
-> commit 방법 (pull 먼저 해야 합니다.)
-```
-git pull origin main
-```
+> commit 방법
+
 ```
 git add .
 ```
@@ -86,6 +84,13 @@ git commit -m "commit message"
 ```
 git push origin main
 ```
+<br />
+
+> Pull Requests
+- New pull request
+- Create pull request
+
+
 <br />
 
 > 참고한 GitHub Repository
