@@ -114,6 +114,15 @@ public class Main {
 ```
 <br />
 
+> 파이썬 입력 예시
+```python
+import sys
+
+input = sys.stdin.readline
+n, m = map(int, input().split())
+```
+<br />
+
 > commit 방법
 
 ```
