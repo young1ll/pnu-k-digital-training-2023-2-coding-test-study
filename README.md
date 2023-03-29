@@ -4,7 +4,7 @@
 > 교재 
 - 이것이 취업을 위한 코딩 테스트다 with 파이썬(한빛미디어 나동빈 지음)
 - [유튜브 채널 동빈나](https://www.youtube.com/@dongbinna)
-- [교재 Java 소스코드(nbd796/python-for-coding-test)](https://github.com/ndb796/python-for-coding-test)
+- [교재 Java 소스코드(ndb796/python-for-coding-test)](https://github.com/ndb796/python-for-coding-test)
 <br />
 
 > 플랫폼
@@ -16,7 +16,6 @@
 - 인텔리제이 설치
 - D2Coding font
 - repository fork
-- branch
 - 각자 패키지 폴더 생성
 - 유튜브 채널
 - README.MD 작성
@@ -39,7 +38,7 @@
 > 백준 
 - 단계별로 풀어보기 - 그리디 알고리즘
 > 프로그래머스
-- LV.1 하루 2문제 
+- Lv.1 하루 2문제 
 
 <br />
 
