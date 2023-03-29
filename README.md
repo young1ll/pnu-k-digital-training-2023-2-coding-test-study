@@ -67,10 +67,50 @@
 <br/>
 
 > 진행 방식
-- 과제로 나온 문제 중 이해 안되는 문제 피드백
+- 과제로 나온 문제 중 이해 안되는 문제 같이 풀어보기
 - 정기 스터디 시간에 2문제 각자 풀기
 - 다 푼 후 자신이 푼 알고리즘 방식 설명(2 ~ 3명)
-- 교재 내용 순서대로 진행, 한 주에 한 챕터 진행 
+- 교재 내용 순서대로 한 주에 한 챕터 진행
+- 일요일까지 PR
+<br />
+
+> 자바 입출력 포맷 예시
+```java
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
+
+public class Main {
+    static class Node {
+        private int x;
+        private int y;
+
+        public Node(int x, int y) {
+            this.x = x;
+            this.y = y;
+        }
+
+        public int getX() {
+            return x;
+        }
+
+        public int getY() {
+            return y;
+        }
+    }
+    ...
+    
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(br.readLine());
+
+        int n = Integer.parseInt(st.nextToken());
+        ...
+        
+    }
+}
+```
 <br />
 
 > commit 방법
