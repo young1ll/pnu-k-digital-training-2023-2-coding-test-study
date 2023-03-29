@@ -11,7 +11,8 @@
 - 유튜브 채널
 - README.MD 작성
 - 스터디 방식 논의
-- ctrl + alt + l - 
+- 단축키
+- auto import
 - 백준 환경 세팅 - solved.ac 
 - 백준 문제 제출 시 format
 
