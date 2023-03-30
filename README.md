@@ -12,8 +12,6 @@
 - [프로그래머스](https://programmers.co.kr/)
 <br />
 
-
-
 ## 이번 주 정기 스터디 시간에 풀 문제
 ##### 매주 화요일 업데이트!
 - 백준 11399 ATM
@@ -148,6 +146,20 @@ print()
 ```
 <br />
 
+## Git Repository 폴더 구조 (제출 양식 맞춰주세요!)
+#### <이름>/<백준단계제목>/<파일명.java>
+
+> 예시
+- byeongmin/그리디알고리즘/ATM.java
+- byeongmin/그래프와순회/바이러스.java
+<br />
+
+## Pull Request Message 
+#### <주차> <백준단계제목> <(푼 문제 수)n문제> <완료>
+
+> 예시
+- Week01 그리디알고리즘 5문제 완료
+<br />
 
 ## Commit & Branch & Pull Request 
 > Commit
