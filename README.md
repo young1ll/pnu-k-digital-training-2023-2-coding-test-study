@@ -67,7 +67,7 @@
 ## 백준 제출 시 포맷
 > 자바 입출력 포맷 예시
 ```java
-// package 지우고 
+// package 지우고 제출
 
 import java.util.Scanner;
 import java.io.BufferedReader;
@@ -76,7 +76,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Main { // 클래스명 Main으로 변경 후 
+public class Main { // 클래스명 Main으로 변경
     static class Node { // inner class 사용 -> 패키지 내 중복 방지
         private int x;
         private int y;
@@ -149,7 +149,7 @@ print()
 <br />
 
 
-## Commit & Pull Request
+## Commit & Branch & Pull Request 
 > Commit
 ```
 git add .
@@ -159,6 +159,23 @@ git commit -m "commit message"
 ```
 ```
 git push origin main
+```
+<br />
+
+> Branch (branch 명이 study일 때)
+- branch 확인
+```
+git branch 
+```
+- branch 변경
+```
+git checkout study
+```
+- branch 변경 후 commit
+```
+git add .
+git commit -m "commit message"
+git push origin study
 ```
 <br />
 
