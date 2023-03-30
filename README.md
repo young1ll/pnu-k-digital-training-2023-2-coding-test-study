@@ -86,7 +86,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 public class Main {
-    static class Node {
+    static class Node { // inner class 사용 -> 패키지 내 중복 방지
         private int x;
         private int y;
 
@@ -105,13 +105,26 @@ public class Main {
     }
     ...
     
+    
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st = new StringTokenizer(br.readLine());
-
-        int n = Integer.parseInt(st.nextToken());
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+        StringTokenizer st = new StringTokenizer(br.readLine()); // 한 줄씩 입력(br.readLine()) -> String
+       
+        int n = Integer.parseInt(st.nextToken()); // String -> int
+        int m = Integer.parseInt(st.nextToken()); 
+        
+        String array[] = br.reandLine().split(" "); // 공백마다 데이터 끊어서 배열에 넣음
         ...
         
+        
+        String s = "abc";
+        bw.write(s + "\n"); // String으로 출력,줄바꿈 필요 시 "\n"
+        // 출력 결과
+        // a
+        // b
+        // c
+        bw.close(); // 스트림 닫음
     }
 }
 ```
@@ -128,7 +141,7 @@ n, m = map(int, input().split())
 
 
 ## Commit & Pull Request
-> commit 방법
+> Commit
 ```
 git add .
 ```
