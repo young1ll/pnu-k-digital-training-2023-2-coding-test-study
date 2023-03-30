@@ -73,6 +73,7 @@ import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
+import java.util.ArrayList;
 
 public class Main { // 클래스명 Main으로 변경
     static class Node { // inner class 사용 -> 패키지 내 중복 방지
@@ -109,6 +110,12 @@ public class Main { // 클래스명 Main으로 변경
         int m = Integer.parseInt(st.nextToken()); 
         
         String array[] = br.reandLine().split(" "); // 공백마다 데이터 끊어서 배열에 넣음
+        
+        ArrayList<Integer> list = new ArrayList<>();
+        while (st.hasMoreTokens()) {
+            list.add(Integer.parseInt(st.nextToken()));
+        }
+        
         ...
         
         
