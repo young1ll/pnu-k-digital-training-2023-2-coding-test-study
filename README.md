@@ -144,7 +144,7 @@ n, m = map(int, input().split())
 
 // 시간 초과를 대비한 입력
 import sys
-s = sys.stdin.readline()
+s = sys.stdin.readline().rstrip()
 n, m = map(int, sys.stdin.readline().split())
 
 
