@@ -138,14 +138,14 @@ public class Main { // 클래스명 Main으로 변경
 
 > 파이썬 입력 예시
 ```python
-import sys
-
 // 일반적인 입력
+s = input()
 n, m = map(int, input().split())
 
 // 시간 초과를 대비한 입력
-input = sys.stdin.readline
-n, m = map(int, input().split())
+import sys
+s = sys.stdin.readline()
+n, m = map(int, sys.stdin.readline().split())
 
 
 // 출력
