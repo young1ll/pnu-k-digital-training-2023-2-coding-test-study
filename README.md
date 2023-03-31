@@ -1,6 +1,9 @@
 # 부산대학교 K-Digital Training 2023-2 Coding Test Study
 <br/>
 
+### 4월 4일에 GitHub Desktop 사용법 알려드릴게요!!
+<br />
+
 > 교재 
 - 이것이 취업을 위한 코딩 테스트다 with 파이썬(한빛미디어 나동빈 지음)
 - [유튜브 채널 동빈나](https://www.youtube.com/@dongbinna)
