@@ -1,18 +1,22 @@
 # 부산대학교 K-Digital Training 2023-2 Coding Test Study
+
 <br/>
 
 ### 4월 4일에 GitHub Desktop 사용법 알려드릴게요!!
+
 <br />
 
 > 교재 
 - 이것이 취업을 위한 코딩 테스트다 with 파이썬(한빛미디어 나동빈 지음)
 - [유튜브 채널 동빈나](https://www.youtube.com/@dongbinna)
 - [교재 Java 소스코드(ndb796/python-for-coding-test)](https://github.com/ndb796/python-for-coding-test)
+
 <br />
 
 > 플랫폼
 - [백준](https://www.acmicpc.net/)
 - [프로그래머스](https://programmers.co.kr/)
+
 <br />
 
 ## 이번 주 정기 스터디 시간에 풀 문제
@@ -55,6 +59,7 @@
 |---|---|---|---|
 |Week00|2023.03.30|OT| |
 |Week01|2023.04.04 ~ 2023.04.10|03 그리디|그리디 알고리즘|
+
 <br/>
 
 ## 진행 방식
@@ -149,6 +154,7 @@ public class Main { // 클래스명 Main으로 변경
     }
 }
 ```
+
 <br />
 
 > 파이썬 입력 예시
@@ -166,22 +172,26 @@ n, m = map(int, sys.stdin.readline().split())
 // 출력
 print()
 ```
+
 <br />
 
 ## GitHub Repository 폴더 구조 (제출 양식 맞춰주세요!)
-#### <이름>/<백준단계제목>/<파일명.java>
+#### <이름>/<백준문제분류>/<파일명.java>
 
 > 예시
 - byeongmin/그리디알고리즘/ATM.java
 - byeongmin/그래프와순회/바이러스.java
+
 <br />
 
 ## Pull Request Message 
-#### <주차> <백준단계제목> <(푼 문제 수)n문제> <완료>
+#### <주차> <백준문제분류> <(푼 문제 수)n문제> <완료>
 
 > 예시
 - Week01 그리디알고리즘 5문제 완료
+
 <br />
+
 
 ## Commit & Branch & Pull Request 
 > Commit
@@ -194,6 +204,7 @@ git commit -m "commit message"
 ```
 git push origin main
 ```
+
 <br />
 
 > Branch (branch 명이 study일 때)
@@ -211,6 +222,7 @@ git add .
 git commit -m "commit message"
 git push origin study
 ```
+
 <br />
 
 > Pull Requests
