@@ -58,8 +58,10 @@
 <br/>
 
 ## 진행 방식
+- 정기 스터디 시간까지 유튜브 강의 보기
+- 교재 내용 코딩하면서 이해하기 -> 자신의 Repository에 코드 올리기
 - 과제로 나온 문제 중 이해 안되는 문제 같이 풀어보기
-- 정기 스터디 시간에 2문제 각자 풀기
+- 정기 스터디 시간에 1 ~ 2문제 각자 풀기
 - 다 푼 후 자신이 푼 알고리즘 방식 설명(2 ~ 3명)
 - 교재 내용 순서대로 한 주에 한 챕터 진행
 - 월요일까지 PR
@@ -128,12 +130,22 @@ public class Main { // 클래스명 Main으로 변경
         System.out.println(s); // abc
         
         // 시간 초과를 대비한 출력
-        bw.write(s + "\n"); // String으로 출력,줄바꿈 필요 시 "\n"
+        bw.write(s + "\n"); // String으로 출력, 줄바꿈 필요 시 "\n"
         // 출력 결과
         // a
         // b
         // c
         bw.close(); // 스트림 닫음
+
+        // StringBuilder
+        StringBuilder sb = new StringBuilder();
+        sb.append("abc");
+        sb.append("def");
+        System.out.println(sb); // abcdef -> StringBuilder
+        System.out.println(sb.toString()); // abcdef -> String
+
+        bw.write(sb.toString()); // abcdef
+        bw.close();
     }
 }
 ```
@@ -156,7 +168,7 @@ print()
 ```
 <br />
 
-## Git Repository 폴더 구조 (제출 양식 맞춰주세요!)
+## GitHub Repository 폴더 구조 (제출 양식 맞춰주세요!)
 #### <이름>/<백준단계제목>/<파일명.java>
 
 > 예시
