@@ -2,7 +2,11 @@
 
 <br/>
 
+## Week01 과제
 ### [백준 그리디알고리즘 단계별로 풀어보기](https://www.acmicpc.net/step/33)
+
+<br /> 
+
 ### Sync fork하고 PR 보내주세요!!
 
 <br />
