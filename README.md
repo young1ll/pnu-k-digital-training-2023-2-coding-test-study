@@ -26,7 +26,8 @@
 
 ## 이번 주 정기 스터디 시간에 풀 문제
 ##### 매주 화요일 업데이트!
-
+- [백준 25305 커트라인](https://www.acmicpc.net/problem/25305)
+- [백준 10989 수 정렬하기3](https://www.acmicpc.net/problem/10989)
 
 <br />
 
