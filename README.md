@@ -2,8 +2,8 @@
 
 <br/>
 
-## Week01 과제
-### [백준 그리디알고리즘 단계별로 풀어보기](https://www.acmicpc.net/step/33)
+## Week02 과제
+### [백준 정렬 단계별로 풀어보기](https://www.acmicpc.net/step/9)
 
 <br /> 
 
@@ -27,13 +27,13 @@
 ## 이번 주 정기 스터디 시간에 풀 문제
 ##### 매주 화요일 업데이트!
 - [백준 25305 커트라인](https://www.acmicpc.net/problem/25305)
-- [백준 10989 수 정렬하기3](https://www.acmicpc.net/problem/10989)
+- [백준 10989 수 정렬하기 3](https://www.acmicpc.net/problem/10989)
 
 <br />
 
 ## 이번 주 과제 
 > 백준 
-- 단계별로 풀어보기 - 그리디 알고리즘
+- 단계별로 풀어보기 - 정렬
 > 프로그래머스
 - Lv.1 하루 2문제 
 
