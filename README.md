@@ -26,7 +26,8 @@
 
 ## 이번 주 정기 스터디 시간에 풀 문제
 ##### 매주 화요일 업데이트!
-
+- [백준 2776 암기왕](https://www.acmicpc.net/problem/2776)
+- [백준 2512 예산](https://www.acmicpc.net/problem/2512)
 
 <br />
 
