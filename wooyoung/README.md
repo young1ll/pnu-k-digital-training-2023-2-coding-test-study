@@ -26,14 +26,6 @@
 - 백준 환경 세팅 - solved.ac 
 - 백준 문제 제출 시 format
 
-<br />
-
-## 이번 주 정기 스터디 시간에 풀 문제
-##### 매주 월요일 업데이트!
-- 백준 11399 ATM
-- 백준 13305 주유소
-
-<br />
 
 ## 이번 주 과제 
 > 백준 
@@ -62,13 +54,6 @@
   </tr>
 </table>
 
-<br />
-
-|주차|날짜|Chapter|백준|
-|---|---|---|---|
-|Week00|2023.03.31|OT| |
-|Week01|2023.04.04 ~ 2023.04.10|03 그리디|그리디 알고리즘|
-<br/>
 
 ## 진행 방식
 - 과제로 나온 문제 중 이해 안되는 문제 같이 풀어보기
@@ -78,58 +63,7 @@
 - 일요일까지 PR
 <br />
 
-## 백준 제출 시 포맷
-> 자바 입출력 포맷 예시
-```java
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.StringTokenizer;
 
-public class Main {
-    static class Node { // inner class 사용 -> 패키지 내 중복 방지
-        private int x;
-        private int y;
-
-        public Node(int x, int y) {
-            this.x = x;
-            this.y = y;
-        }
-
-        public int getX() {
-            return x;
-        }
-
-        public int getY() {
-            return y;
-        }
-    }
-    ...
-    
-    
-    public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-        StringTokenizer st = new StringTokenizer(br.readLine()); // 한 줄씩 입력(br.readLine()) -> String
-       
-        int n = Integer.parseInt(st.nextToken()); // String -> int
-        int m = Integer.parseInt(st.nextToken()); 
-        
-        String array[] = br.reandLine().split(" "); // 공백마다 데이터 끊어서 배열에 넣음
-        ...
-        
-        
-        String s = "abc";
-        bw.write(s + "\n"); // String으로 출력,줄바꿈 필요 시 "\n"
-        // 출력 결과
-        // a
-        // b
-        // c
-        bw.close(); // 스트림 닫음
-    }
-}
-```
-<br />
 
 > 파이썬 입력 예시
 ```python
