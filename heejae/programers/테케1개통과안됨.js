@@ -1,23 +1,16 @@
 function solution(n, words) {
-  var answer = words[0];
-  let num = [0, 0]
-
+  var temp = words[0];
   for (let i = 1; i < words.length; i++) {
-    if (answer.includes(words[i])) {
-      num = [i % n + 1, Math.ceil((i+1)/n)];
-      break
-    };
-    if (words[i - 1][words[i - 1].length - 1] !== words[i][0]) {
-      num = [i % n + 1, Math.ceil((i+1)/n)];
-      break;
+    if (temp.includes(words[i]) || words[i - 1][words[i - 1].length - 1] !== words[i][0]) {
+      return [i % n + 1, Math.ceil((i + 1) / n)];
     }
-    answer = answer + " " + words[i];
+    temp += " " + words[i];
   }
-  return num;
+  return [0, 0];
 }
 
 console.log(solution(
-  2, ['ac','ca','ac','aa',"ac"]
+  2, ['ac', 'ca', 'ac', 'aa', "ac"]
 
 ))
     // [2,2]
