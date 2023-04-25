@@ -1,31 +1,16 @@
-function solution(n) {
-  let ans = 1;
-  function fac(i, j = 1) {
-    if (i == 1 || i == 0) return j
-    return fac(i - 1, j * i)
-  }
-  function com(a, b) {
-    return fac(a) / fac(b) / fac(Math.abs(a - b));
-  }
-  for (let i = 1; i <= n / 2; i++) {
-    ans += com(n - i, i)
-  }
-  return ans % 1234567
+function solution(n, a = Array(1).fill(n)) {
+    if (n == 1) return a;
+    else if (n % 2) {
+        a.push(3 * n + 1)
+        return solution(3 * n + 1, a)
+    }
+    else {
+        a.push(n / 2)
+        return solution(n / 2, a);
+    }
 }
-
-function solution(n) {
-  const dp = [0, 1, 2];
-  if (n < 3)
-    return dp[n];
-  for (let i = 3; i <= n; i++) {
-    dp[i] = (dp[i - 1] + dp[i - 2]) % 1234567;
-  }
-  return dp[n];
-}
-
+'dd'.replace()
 console.log(solution(
-  4
+    10
 ))
-// 5
-
-
+  // 0a
