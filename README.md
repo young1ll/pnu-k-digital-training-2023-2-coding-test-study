@@ -29,7 +29,7 @@
 ##### 매주 화요일 업데이트!
 - [백준 1541 잃어버린 괄호](https://www.acmicpc.net/problem/1541)
 - [백준 10814 나이순 정렬](https://www.acmicpc.net/problem/10814)
-- [백준 1654 랜선 자르기] (https://www.acmicpc.net/problem/1654)
+- [백준 1654 랜선 자르기](https://www.acmicpc.net/problem/1654)
 
 <br />
 
