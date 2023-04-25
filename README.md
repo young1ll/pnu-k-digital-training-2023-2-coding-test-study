@@ -27,8 +27,9 @@
 
 ## 이번 주 정기 스터디 시간에 풀 문제
 ##### 매주 화요일 업데이트!
-- [백준 2776 암기왕](https://www.acmicpc.net/problem/2776)
-- [백준 2512 예산](https://www.acmicpc.net/problem/2512)
+- [백준 1541 잃어버린 괄호](https://www.acmicpc.net/problem/1541)
+- [백준 10814 나이순 정렬](https://www.acmicpc.net/problem/10814)
+- [백준 1654 랜선 자르기] (https://www.acmicpc.net/problem/1654)
 
 <br />
 
